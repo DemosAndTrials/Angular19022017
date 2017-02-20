@@ -7,5 +7,5 @@ var AppComponent = (function () {
 }());
 exports.appComponent = {
     controller: AppComponent,
-    template: "\n    <div>\n    <h1>Hello, {{$ctrl.name}}</h1>\n    <todo-list></todo-list>\n<counter\ninit=\"10\"\nstep=\"3\"\nmax=\"20\"\nmin=\"5\"\non-event=\"onEvent()\"\n></counter>\n    </div>\n" };
+    template: "\n\n    <div class=\"panel panel-default\">\n    \n        <div class=\"panel-heading\">\n            <h1>Hello, {{$ctrl.name}}</h1>\n        </div>\n        \n        <div class=\"panel-body\">\n        <todo-list></todo-list>\n        <counter\n        init=\"10\"\n        step=\"3\"\n        max=\"20\"\n        min=\"5\"\n        on-event=\"onEvent()\">\n        </counter>\n    \n    </div>\n    </div>\n    \n" };
 //# sourceMappingURL=app.component.js.map
